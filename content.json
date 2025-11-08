@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "title": "Hard Rock Capital - Strategic Financial Solutions",
+    "description": "Elite financial strategies for wealth preservation and growth"
+  },
+  "navigation": {
+    "logo": "Hard Rock Capital",
+    "menuItems": [
+      { "id": "menu-1", "text": "Services", "href": "#services" },
+      { "id": "menu-2", "text": "Mechanism", "href": "#mechanism" },
+      { "id": "menu-3", "text": "Process", "href": "#process" },
+      { "id": "menu-4", "text": "FAQ", "href": "#faq" },
+      { "id": "menu-5", "text": "Contact", "href": "#cta" }
+    ]
+  },
+  "hero": {
+    "headline": "Strategic Financial Solutions for the Elite",
+    "subheadline": "Preserving wealth, maximizing growth, ensuring legacy",
+    "ctaText": "Schedule Consultation",
+    "ctaLink": "#cta",
+    "backgroundImage": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=1920&q=80"
+  },
+  "intro": {
+    "heading": "Uncompromising Excellence in Financial Strategy",
+    "text": "At Hard Rock Capital, we provide sophisticated financial solutions for high-net-worth individuals and families. Our approach combines tax optimization, asset protection, and legacy planning to secure your financial future across generations."
+  },
+  "services": {
+    "heading": "Our Core Services",
+    "items": [
+      {
+        "id": "service-1",
+        "icon": "📊",
+        "title": "Tax Posture",
+        "description": "Advanced tax optimization strategies that minimize liability while maintaining full compliance. We structure your affairs for maximum efficiency."
+      },
+      {
+        "id": "service-2",
+        "icon": "🛡️",
+        "title": "Asset Protection",
+        "description": "Sophisticated structures to safeguard your wealth from litigation, creditors, and market volatility. Your assets remain secure and accessible."
+      },
+      {
+        "id": "service-3",
+        "icon": "🏦",
+        "title": "Banking Resilience",
+        "description": "Strategic banking relationships and structures that ensure liquidity, privacy, and protection against systemic risks in the financial system."
+      },
+      {
+        "id": "service-4",
+        "icon": "👨‍👩‍👧‍👦",
+        "title": "Legacy",
+        "description": "Comprehensive estate planning and family governance structures that preserve wealth and values across multiple generations."
+      }
+    ]
+  },
+  "mechanism": {
+    "heading": "How We Create Value",
+    "items": [
+      {
+        "id": "mechanism-1",
+        "number": "01",
+        "title": "Comprehensive Analysis",
+        "description": "Deep dive into your current financial position, goals, and risk tolerance."
+      },
+      {
+        "id": "mechanism-2",
+        "number": "02",
+        "title": "Strategy Development",
+        "description": "Custom-tailored solutions designed specifically for your unique situation."
+      },
+      {
+        "id": "mechanism-3",
+        "number": "03",
+        "title": "Implementation",
+        "description": "Expert execution of strategies with precision and attention to detail."
+      },
+      {
+        "id": "mechanism-4",
+        "number": "04",
+        "title": "Ongoing Optimization",
+        "description": "Continuous monitoring and adjustment to ensure peak performance."
+      }
+    ]
+  },
+  "process": {
+    "heading": "Our Client Process",
+    "steps": [
+      {
+        "id": "step-1",
+        "number": "1",
+        "title": "Initial Consultation",
+        "description": "Confidential discussion of your financial objectives and current situation. We listen to understand your unique needs and aspirations."
+      },
+      {
+        "id": "step-2",
+        "number": "2",
+        "title": "Strategic Planning",
+        "description": "Development of a comprehensive financial strategy tailored to your goals. Every aspect is carefully considered and optimized."
+      },
+      {
+        "id": "step-3",
+        "number": "3",
+        "title": "Implementation",
+        "description": "Seamless execution of your strategy with our network of trusted professionals. We handle every detail with expertise."
+      },
+      {
+        "id": "step-4",
+        "number": "4",
+        "title": "Ongoing Support",
+        "description": "Regular reviews and adjustments to keep your strategy aligned with changing circumstances and opportunities."
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Frequently Asked Questions",
+    "items": [
+      {
+        "id": "faq-1",
+        "question": "Who are your ideal clients?",
+        "answer": "We work with high-net-worth individuals, successful entrepreneurs, and established families seeking sophisticated financial strategies. Our clients typically have complex financial situations requiring expert guidance."
+      },
+      {
+        "id": "faq-2",
+        "question": "What makes your approach different?",
+        "answer": "We combine deep technical expertise with a holistic view of wealth management. Our strategies are custom-designed, not off-the-shelf products. We prioritize long-term value over short-term gains."
+      },
+      {
+        "id": "faq-3",
+        "question": "How do you charge for your services?",
+        "answer": "Our fee structure is transparent and aligned with the value we deliver. We offer both project-based and ongoing advisory arrangements. Contact us for a detailed discussion of fees."
+      },
+      {
+        "id": "faq-4",
+        "question": "How quickly can we get started?",
+        "answer": "Initial consultations are typically scheduled within 1-2 weeks. Implementation timelines vary based on strategy complexity, but we move efficiently while maintaining thoroughness."
+      },
+      {
+        "id": "faq-5",
+        "question": "Do you work with international clients?",
+        "answer": "Yes, we have extensive experience with international structures and cross-border planning. Our network includes global specialists for comprehensive solutions."
+      },
+      {
+        "id": "faq-6",
+        "question": "What information do I need to provide?",
+        "answer": "We'll request financial statements, tax returns, legal documents, and other relevant materials. All information is handled with strict confidentiality and security."
+      }
+    ]
+  },
+  "cta": {
+    "heading": "Ready to Secure Your Financial Future?",
+    "text": "Schedule a confidential consultation to discuss your financial strategy.",
+    "buttonText": "Schedule Consultation",
+    "email": "contact@hardrockcapital.com",
+    "phone": "+1 (555) 123-4567"
+  },
+  "footer": {
+    "companyName": "Hard Rock Capital",
+    "tagline": "Strategic Financial Solutions",
+    "copyright": "© 2025 Hard Rock Capital. All rights reserved.",
+    "disclaimer": "Hard Rock Capital provides strategic financial consulting. This is not investment advice. Consult with qualified professionals before making financial decisions."
+  }
+}
