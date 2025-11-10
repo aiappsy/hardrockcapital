@@ -1,0 +1,27 @@
+# Git
+.git
+.gitignore
+
+# GitHub
+.github
+
+# Node modules (if any)
+node_modules
+npm-debug.log
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+.tmp
