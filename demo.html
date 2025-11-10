@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hard Rock Capital - Demo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            background: white;
+            border-radius: 20px;
+            padding: 60px 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 48px;
+            color: #1a1a2e;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .subtitle {
+            font-size: 20px;
+            color: #6c757d;
+            margin-bottom: 40px;
+        }
+        
+        .buttons {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+        
+        .btn {
+            padding: 16px 32px;
+            border-radius: 12px;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .btn-primary {
+            background: #0066cc;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #0052a3;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 102, 204, 0.3);
+        }
+        
+        .btn-secondary {
+            background: #f8f9fa;
+            color: #1a1a2e;
+            border: 2px solid #e9ecef;
+        }
+        
+        .btn-secondary:hover {
+            background: #e9ecef;
+            transform: translateY(-2px);
+        }
+        
+        .features {
+            text-align: left;
+            margin-top: 50px;
+            padding-top: 40px;
+            border-top: 2px solid #e9ecef;
+        }
+        
+        .features h2 {
+            font-size: 24px;
+            color: #1a1a2e;
+            margin-bottom: 20px;
+        }
+        
+        .feature-list {
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        
+        .feature-list li {
+            padding: 12px 16px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            color: #333;
+            font-size: 14px;
+        }
+        
+        .feature-list li::before {
+            content: "✓ ";
+            color: #10b981;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 32px;
+            }
+            
+            .subtitle {
+                font-size: 16px;
+            }
+            
+            .container {
+                padding: 40px 24px;
+            }
+            
+            .buttons {
+                flex-direction: column;
+            }
+            
+            .btn {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Hard Rock Capital</h1>
+        <p class="subtitle">Admin Panel Demo</p>
+        
+        <p style="color: #6c757d; margin-bottom: 30px;">
+            Welcome to the comprehensive admin dashboard for Hard Rock Capital. This demo showcases a fully functional admin panel with settings management, content editing, and media upload capabilities.
+        </p>
+        
+        <div class="buttons">
+            <a href="admin.html" class="btn btn-primary">
+                🚀 Open Admin Panel
+            </a>
+            <a href="index.html" class="btn btn-secondary">
+                🌐 View Main Site
+            </a>
+        </div>
+        
+        <div class="features">
+            <h2>✨ Features</h2>
+            <ul class="feature-list">
+                <li>General Settings Management</li>
+                <li>Color & Theme Customization</li>
+                <li>Typography Controls</li>
+                <li>Section Manager (CRUD)</li>
+                <li>Content Cards Editor</li>
+                <li>Layout Settings</li>
+                <li>Media Library with Drag & Drop</li>
+                <li>5 Preset Themes</li>
+                <li>localStorage Persistence</li>
+                <li>Responsive Design</li>
+                <li>Modal Dialogs</li>
+                <li>Notification System</li>
+            </ul>
+        </div>
+        
+        <div style="margin-top: 40px; padding-top: 30px; border-top: 1px solid #e9ecef;">
+            <p style="color: #6c757d; font-size: 14px;">
+                💡 <strong>Tip:</strong> All settings are saved to your browser's localStorage. Clear your browser data to reset.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
