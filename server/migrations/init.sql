@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS pages (
 -- Insert default admin user (password: admin123)
 -- Password is hashed using bcrypt with salt rounds 10
 INSERT INTO users (username, password) 
-VALUES ('admin', '$2b$10$8K1p/a0dL3LDXvl2LqXhBOzGGglielB5iPDLFGdLNYdZpqBkqw7y2')
+VALUES ('admin', '$2b$10$fu2YUon57Y7ReUatFTzVgeidWN/9sq5ePz/N2vmqvKNepGEYYCrP2')
 ON CONFLICT (username) DO NOTHING;
 
 -- Insert sample pages

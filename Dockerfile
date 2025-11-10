@@ -7,13 +7,9 @@ COPY package*.json ./
 
 # Stage 2: Dependencies
 FROM base AS dependencies
-RUN npm ci --only=production
+RUN npm install --omit=dev
 
-# Stage 3: Development dependencies
-FROM base AS dev-dependencies
-RUN npm ci
-
-# Stage 4: Production
+# Stage 3: Production
 FROM node:18-alpine AS production
 WORKDIR /app
 
